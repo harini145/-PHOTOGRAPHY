@@ -1,0 +1,641 @@
+*{
+    padding: 0;
+    margin: 0;
+  }
+  body{
+  background-color: #abe8f7;
+    width: 100vw;
+   
+    
+   
+  }
+  .s1{
+    background-color:rgb(161, 33, 161);
+    width: 100vw;
+  height: 822px;   
+  margin-left: 0px;
+  
+  
+  
+  }
+  #titleName{
+    font-size: 40px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  
+    
+    position: absolute;
+    word-wrap: nowrap;
+    white-space: nowrap;
+  
+    
+    
+  
+    text-transform: uppercase;
+    width: 150px;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    margin-left: 0px;
+    word-spacing: 2px;
+    background-color: aliceblue;
+    text-align: center;
+  }
+  
+  #titleName {
+        -moz-animation: marquee 8s linear infinite;
+        -webkit-animation: marquee 8s linear infinite;
+        animation: marquee 8s linear infinite;
+      }
+    
+      @-moz-keyframes marquee {
+        0% {
+          transform: translateY(-100%);
+        }
+        100% {
+          transform: translateY(3%);
+        }
+      }
+      @-webkit-keyframes marquee {
+        0% {
+          transform: translateY(-100%);
+        }
+        100% {
+          transform: translateY(3%);
+        }
+      }
+      @keyframes marquee {
+        0% {
+          -moz-transform: translateY(-100%);
+          -webkit-transform: translateY-(100%);
+          transform: translateY(-100%)
+        }
+        100% {
+          -moz-transform: translateY(3%);
+          -webkit-transform: translateY(3%);
+          transform: translateY(3%);
+        }
+      }
+  
+  
+  .ss1{
+    background: url(assets/lovely_couple_5k.jpg);
+  
+    background-size: cover;
+    width: 90vw;
+    height: 822px;
+    margin-left: 150px;
+    margin-top: 0px;
+    
+  }
+  #backGroundImage{
+  width: 90vw;
+  height: 822px;
+  position: absolute;
+  
+  
+  
+  }
+  .har p{
+    text-align: end;
+   
+  }
+  .s2{
+    background-color: rgb(1, 1, 1);
+    width: 90vw;
+    height: 650px;
+    margin-top: 35px;
+    
+  
+  
+  }
+  
+  .s3{
+    background-color: rgb(149, 208, 138);
+    width: 30vw;
+    height: 620px;
+    margin-top: 20px;
+    
+  
+  }
+  .s4{
+    background-color: rgb(146, 70, 70);
+    width: 80vw;
+    height: 620px;
+    margin-top: 20px;
+    
+    margin: 8px;
+  }
+  .s5{
+     background-color: rgb(244, 234, 234);
+    width: 80vw;
+    height: 620px;
+    margin-top: 20px;
+  
+    margin: 8px;
+  }
+  #backGroundImage{
+    width: 50vw;
+    height: 702px;
+    margin-left: 10px;
+    opacity: 20%;
+    
+  }
+  #firstImage{
+  
+    width: 80vw;
+    height: 600px;
+    margin-top:40px;
+    border: 2px solid wheat;
+    padding: 3px;
+    
+  }
+  #secondImage{
+    width: 57vw;
+    height: 579px;
+    margin-bottom: 30px;
+    border: 2px solid rgb(209, 143, 22);
+    padding: 3px;
+   
+  
+  }
+  #thirdImage{
+    width: 60vw;
+    height: 615px;
+    margin-bottom: 30px;
+  
+    
+  }
+  #fouthImage{
+    width: 80vw;
+    height: 570px;
+    margin-bottom: 30px;
+  
+  }
+  .ss3{
+    width: 60vw;
+    margin-left: 600px;
+    height: 620px;
+    background-color: rgb(229, 224, 134);
+    
+  }
+  #titleDescription{
+  position: absolute;
+  font-size: 50px;
+  color: aliceblue;
+  justify-content: center;
+  margin-top: 60px;
+  margin-left: 380px;
+  
+  }
+  #brandname2{
+  position: absolute;
+  font-size: 50px;
+  color: aliceblue;
+  justify-content: center;
+  margin-top:  130px;
+  margin-left: 420px;
+  
+  
+  }
+  #link{
+  position: absolute;
+  font-size: 30px;
+  color: rgb(227, 114, 15);
+  align-content: center;
+  margin-top: 80px;
+  
+  }
+  a{
+  text-decoration: none;
+  font-size: 20px;
+  color: antiquewhite;
+  }
+  #signin{
+  position: absolute;
+  font-size: 30px;
+  color: aliceblue;
+  margin-top: 540px;
+  margin-left: 235px;
+  font-family: bold;
+  background-color: rgb(222, 92, 100);
+  }
+  #email{
+  position: absolute;
+  font-size: 30px;
+  color:rgb(18, 9, 9);
+  margin-top: 400px;
+  margin-left: 150px;
+  font-family: bold;
+  
+  }
+  #password{
+  position: absolute;
+  font-size: 30px;
+  color: rgb(1, 1, 1);
+  margin-top: 460px;
+  margin-left: 130px;
+  font-family: bold;
+  
+  background-size: 300px;
+  }
+  #nexpage{
+  position: absolute;
+  color: aliceblue;
+  font-size: 30px;
+  flex-flow: column wrap;
+  word-break: break-word;
+  word-spacing:5px ;
+  }
+  #crcl1 {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  background-color: rgb(114, 149, 126);
+  border-radius: 75px;
+  margin-top: 190px;
+  margin-left: 220px;
+  }
+  
+  #sqr3{
+  position: absolute;
+  width: 130px;
+  height: 36px;
+  background-color: rgb(233, 229, 14);
+  margin-top: 460px;
+  margin-left: 120px;
+  border-radius: 20px;
+  }
+  #sqr4{
+  position: absolute;
+  width: 130px;
+  height: 36px;
+  background-color: rgb(223, 241, 14);
+  margin-top: 398px;
+  margin-left: 120px;
+  border-radius: 20px;
+  }
+  #humanlogo{
+  position: absolute;
+  margin-top: 190px;
+  margin-left: 200px;
+  width: 190px;
+  height: 150px;
+  }
+  #nex1{
+  position: absolute;
+  margin-top: 360px;
+  font-size: 30px;
+  color: aliceblue;
+  margin-left: 1100px;
+  font-family: bold;
+  }
+  #nex2{
+  position: absolute;
+  margin-top: 410px;
+  font-size: 30px;
+  color: aliceblue;
+  margin-left: 1100px;
+  font-family: bold;
+  }
+  #nex3{
+  position: absolute;
+  margin-top: 460px;
+  font-size: 30px;
+  color: aliceblue;
+  margin-left: 1100px;
+  font-family: bold;
+  }
+  #crcl2{
+  position: absolute;
+  width: 100px;
+  height: 50px;
+  background-color: rgb(52, 66, 54);
+  border-radius: 8px;
+  margin-top: 410px;
+  margin-left: 1200px;
+  }
+  #viewWork{
+  position: absolute;
+  font-size: 20px;
+  color: aqua;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  margin-top: 425px;
+  margin-left: 1211px;
+  
+  }
+  #signup{
+  position: absolute;
+  margin-top: 580px;
+  margin-left: 185px;
+  color: aliceblue;
+  
+  }
+  #booking{
+  position: absolute;
+  margin-top: 340px;
+  margin-left: 170px;
+  font-size: 30px;
+  
+  color: #f2fafc;
+  
+  }
+  #senter{
+  position: absolute;
+  width: 200px;
+  height: 36px;
+  background-color: rgb(241, 242, 231);
+  margin-top: 460px;
+  margin-left: 280px;
+  border-radius: 20px;
+  
+  }
+  #penter{
+  position: absolute;
+  width: 200px;
+  height: 36px;
+  background-color: rgb(241, 242, 231);
+  margin-top: 398px;
+  margin-left: 280px;
+  border-radius: 20px;
+  
+  }
+  #sec1{
+  width: 80vw;
+  height: 1400px;
+  background-color: #0e0c0c;
+  
+  
+  margin-top: 100px;
+  margin-left: 150px;
+  
+  }
+  #firstImageName{
+  position: absolute;
+  font-size: 20px;
+  font-family: italic;
+  margin-top: 730px;
+  margin-left: 50px;
+  color: #abe8f7;
+  background-color: #abe8f7;
+  }
+  #firstImageName{
+     text-transform: uppercase;
+    background-image: linear-gradient(
+      -225deg,
+      #5eb0dc 0%,
+      #7c0af7 29%,
+      #42d528 67%,
+      #fff800 100%
+    );
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+    display: inline-block;
+        font-size: 70px;
+  }
+  
+  @keyframes textclip {
+    to {
+      background-position: 200% center;
+    }
+  }
+  #ourWork{
+  position: absolute;
+  font-size: 50px;
+  font-family:bold;
+  color: #abe8f7;
+  margin-top: 30px;
+  margin-left: 470px;
+  }
+  #sec2{
+  width: 80vw;
+  height: 1370px;
+  background-color: #070707;
+  
+  
+  margin-top: 50px;
+  margin-left: 150px;
+  
+  }
+  #secondImageName{
+  position: absolute;
+  font-size: 50px;
+  font-family: italic;
+  margin-top: 720px;
+  margin-left: 300px;
+  color: #abe8f7;
+  
+  
+  }
+  #secondImageName{
+    text-transform: uppercase;
+    background-image: linear-gradient(
+      -225deg,
+      #5eb0dc 0%,
+      #f3f0f7 29%,
+      #42d528 67%,
+      #fff800 100%
+    );
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+    display: inline-block;
+        font-size: 70px;
+  }
+  
+  @keyframes textclip {
+    to {
+      background-position: 200% center;
+    }
+  }
+  #sec3{
+  width: 80vw;
+  height: 1260px;
+  background-color: #0e0c0c;
+  margin-top: 50px;
+  margin-left: 150px;
+  }
+  #tt3{
+    width: 20vw;
+    height: 500px;
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 50px;
+    border: 3px solid white;
+    padding: 3px;
+  }
+  #tt4{
+    width: 20vw;
+    height: 500px;
+    position: absolute;
+    margin-top: 680px;
+    margin-left: 840px;
+    border: 3px solid white;
+    padding: 3px;
+  }
+  #thirdImageName{
+  position: absolute;
+  font-size: 50px;
+  font-family: italic;
+  margin-top: 600px;
+  margin-left: 230px;
+  color: #abe8f7;
+  
+  
+  }
+  #thirdImageName{
+    text-transform: uppercase;
+    background-image: linear-gradient(
+      -225deg,
+      #5eb0dc 0%,
+      #fefdff 29%,
+      #42d528 67%,
+      #fff800 100%
+    );
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+    display: inline-block;
+        font-size: 70px;
+  }
+  
+  @keyframes textclip {
+    to {
+      background-position: 200% center;
+    }
+  }
+  #sec4{
+  width: 80vw;
+  height: 750px;
+  background-color: rgb(12, 15, 9);
+  margin-top: 50px;
+  margin-left: 150px;
+  }
+  #fourthImageName{
+  position: absolute;
+  font-size: 50px;
+  font-family: italic;
+  margin-top: 20px;
+  margin-left: 250px;
+   color: #abe8f7;
+  }
+  #fourthImageName{
+    text-transform: uppercase;
+    background-image: linear-gradient(
+      -225deg,
+      #5eb0dc 0%,
+      hsl(300, 3%, 93%) 29%,
+      #42d528 67%,
+      #fff800 100%
+    );
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+    display: inline-block;
+        font-size: 65px;
+  }
+  
+  @keyframes textclip {
+    to {
+      background-position: 200% center;
+    }
+  }
+  #firstImage{
+  position: absolute;
+  width: 60vw;
+  height: 500px;
+  margin-top: 150px;
+  margin-left: 150px;
+  border: 3px solid white;
+  padding: 3px;
+  }
+  #ffimg2{
+  position: absolute;
+  width: 60vw;
+  height: 500px;
+  margin-top: 850px;
+  margin-left: 150px;
+  border: 3px solid white;
+  padding: 3px;
+  }
+  #secondImage{
+  position: absolute;
+  width: 60vw;
+  height: 500px;
+  margin-top: 820px;
+  margin-left: 150px;
+  border: 3px solid white;
+  padding: 3px;
+  
+  }
+  #ssimg2{
+  position: absolute;
+  width: 35vw;
+  height: 550px;
+  margin-top: 120px;
+  margin-left: 50px;
+  border: 3px solid white;
+  padding: 3px;
+  
+  }
+  #ssimg3{
+  position: absolute;
+  width: 35vw;
+  height: 550px;
+  margin-top: 120px;
+  margin-left: 600px;
+  border: 3px solid white;
+  padding: 3px;
+  
+  }
+  #thirdImage{
+  position: absolute;
+  width: 50vw;
+  height: 500px;
+  margin-top: 680px;
+  margin-left: 50px;
+  border: 3px solid white;
+  padding: 3px;
+  }
+  #tt2{
+  position: absolute;
+  width: 50vw;
+  height: 500px;
+  margin-top: 60px;
+  margin-left: 400px;
+  border: 3px solid white;
+  padding: 3px;
+  }
+  #fourthImage{
+  position: absolute;
+  width: 70vw;
+  height: 600px;
+  margin-top: 80px;
+  margin-left: 70px;
+  border: 3px solid white;
+  padding: 3px;
+  
+  }
